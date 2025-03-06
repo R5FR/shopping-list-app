@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liste de Courses</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="list-section">
+            <h1>Liste de Courses</h1>
+            <form id="item-form">
+                <div class="inputbox">
+                    <input type="text" id="item-input" required="required">
+                    <span>Ajouter un article</span>
+                    <i></i>
+                </div>
+                <label>
+                    <input type="checkbox" id="priority-input"> Priorité
+                </label>
+                <button class="animated-button" type="submit">
+                    <svg viewBox="0 0 24 24" class="arr-2" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path>
+                    </svg>
+                    <span class="text">Ajouter</span>
+                    <span class="circle"></span>
+                    <svg viewBox="0 0 24 24" class="arr-1" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path>
+                    </svg>
+                </button>
+            </form>
+            <div class="items-section">
+            <ul id="items-list"></ul>
+        </div>
+        </div>
+        <div class="basket-section">
+            <h1>Panier</h1>
+            <ul id="basket-list"></ul>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sortablejs@1.14.0/Sortable.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
