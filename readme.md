@@ -20,8 +20,7 @@ Ce projet est une application web pour gérer une liste de courses. Les utilisat
 1. Clonez le dépôt :
 
     ```sh
-    git clone https://github.com/votre-utilisateur/liste-des-courses.git
-    cd liste-des-courses
+    git clone https://github.com/R5FR/shopping-list-app.git
     ```
 
 2. Installez les dépendances :
